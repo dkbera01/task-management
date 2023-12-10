@@ -7,8 +7,30 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p> -->
 
-## Task Management
+# Laravel Task Management App
 
-A very simple Laravel web application for task management:
+This is a basic Laravel web application designed for task management. It provides a simple way to manage and organize tasks effectively.
+
+## Features
+
+- **Task Creation:** Create new tasks with a title, description, and due date.
+- **Task Listing:** View a list of all tasks with their details.
+- **Reorder tasks:** You can Reorder tasks with drag and drop.
+- **Task Editing:** Edit existing tasks to update information.
+- **Task Deletion:** Remove tasks that are no longer needed.
 
 ## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dkbera01/task-management.git
+
+   cd task-management
+
+   composer install
+
+   php artisan migrate --seed
+
+   php artisan key:generate
+
+   php artisan serve
