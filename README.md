@@ -21,9 +21,8 @@ This is a basic Laravel web application designed for task management. It provide
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dkbera01/task-management.git
+```bash
+  git clone https://github.com/dkbera01/task-management.git
 
    cd task-management
 
