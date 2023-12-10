@@ -63,7 +63,7 @@ This is a basic Laravel web application designed for task management. It provide
     npm run dev
     ```
 
-The application will be available at http://localhost:8000.
+The application will be available at http://127.0.0.1:8000.
 
 Usage
 Open the application in your web browser.
