@@ -67,6 +67,6 @@ The application will be available at http://127.0.0.1:8000.
 
 Usage
 Open the application in your web browser.
-Register a new account or log in with existing credentials.
+Register a new account.
 Navigate to the task management section.
 Create, edit, or delete tasks as needed.
