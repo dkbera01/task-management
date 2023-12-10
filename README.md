@@ -25,14 +25,30 @@ This is a basic Laravel web application designed for task management. It provide
    ```bash
    git clone https://github.com/dkbera01/task-management.git
 
-2. Clone the repository:
+2. Navigate to the project directory:
     ```bash
    cd task-management
 
+3. Install dependencies using Composer:
+    ```bash
    composer install
 
+   npm install
+
+4. Copy the .env.example file to .env and configure your database connection.
+
+5. Run database migrations and seed the database:
+    ```bash
    php artisan migrate --seed
 
+6. Generate the application key:
+    ```bash
    php artisan key:generate
 
+7. Serve the Laravel application:
+    ```bash
    php artisan serve
+
+8. Serve the Vite:
+    ```bash
+   npm run dev
